@@ -1,0 +1,122 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    background-color: #f2f2f2;
+    padding: 2rem 400px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: hsl(240, 3%, 6%);
+}
+
+.header, .overview, .education, .container, .skills, .projects{
+    max-width: 800px;
+    margin: 1rem;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.primary-button, .secondary-button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover, .secondary-button:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* .card {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+} */
+
+.linkedin-icon {
+    width: 32px; /* Adjust the width as needed */
+    height: 32px; /* Adjust the height as needed */
+    fill: #0077B5; /* Change the color of the icon */
+}
+
+/* Optionally, you can add hover effects */
+.linkedin-icon:hover {
+    fill: #0A66C2; /* Change the color on hover */
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+}
+
+/* Add this to your main.css file */
+
+.timeline {
+    position: relative;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 2px;
+    height: 100%;
+    background-color: #3498db; /* Adjust the color as needed */
+}
+
+.timeline-content {
+    padding-left: 40px;
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.timeline-content p {
+    margin: 0;
+}
+
+/* Add this to your CSS file */
+
+footer {
+    margin-top: 3rem;
+    color: #0d0c0c; /* Text color of the footer */
+    text-align: center; /* Center-align the content inside the footer */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 2px 2px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .primary-button, .secondary-button {
+        padding: 8px 16px;
+    }
+
+    .card {
+        padding: 16px;
+    }
+}
+
+
