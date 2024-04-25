@@ -1,6 +1,7 @@
 {
   "name": "my-resume",
   "version": "0.1.0",
+  "homepage": "https://MMRejowan.github.io/resume-project",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -9,13 +10,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "serve": "^14.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,3 +43,4 @@
     "gh-pages": "^6.1.1"
   }
 }
+
