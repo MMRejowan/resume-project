@@ -1,14 +1,26 @@
 [
     {
-        "position": "Test Engineer Intern",
+        "position": "QA Engineer II",
         "company": "Vantage Circle",
-        "duration": "July 2022 - Oct 2022",
-        "description": "Worked as an Intern"
+        "duration": "May 2025 - Present",
+        "description": "• Own and execute end-to-end test strategies for core product modules, ensuring alignment with agile sprint objectives and release timelines\n• Enhance CI/CD workflows by integrating automated test suites using Jenkins and GitHub Actions, significantly reducing regression cycle times\n• Mentor junior QA engineers by providing guidance on automation frameworks, conducting code reviews, and delivering internal training sessions\n• Drive continuous process improvement by streamlining test case management, optimizing test data strategies, and reducing manual testing efforts by 45%\n• Taking automation initiatives using Mocha and Javascript with Selenium, achieving over 65% test coverage and improving test reliability and scalability"
+    },
+    {
+        "position": "QA Engineer - I",
+        "company": "Vantage Circle",
+        "duration": "June 2024 - May 2025",
+        "description": "• Designed and maintained comprehensive test cases and documentation to ensure full test coverage and traceability\n• Conducted User Acceptance Testing (UAT) for high-profile clients, ensuring software solutions met business requirements\n• Partnered with key clients, including Blackbox, HDFC Ergo, Zuventus Healthcare, Bangalore Airport, Engage2Excel, and others\n• Developed and executed automated test scripts using Selenium (Java & JavaScript), Python (Pytest), and Cypress\n• Performed in-depth database validation using MySQL, ensuring data integrity and consistency across applications\n• Utilized monitoring tools like Grafana and Prometheus to track system performance and identify potential issues proactively\n• Managed CI/CD pipelines with Jenkins, ensuring seamless integration and deployment of automated tests\n• Maintained version control using Git, ensuring effective collaboration and streamlined code management"
     },
     {
         "position": "Test Engineer",
         "company": "Vantage Circle",
-        "duration": "Nov 2022 - Present",
-        "description": "Fulltime"
+        "duration": "November 2022 - June 2024",
+        "description": "• Conducted UAT and End-to-End testing for clients including L&T Technology Services, Inmobi, Bluestar India, Black Box, and others\n• Designed comprehensive test plans, test cases, and test execution strategies aligned with product requirements\n• Executed manual and automated tests across multiple platforms using tools like BrowserStack and LambdaTest\n• Validated software quality at various stages including component, API, feature, and end-to-end testing\n• Performed cross-browser and cross-device testing across multiple operating systems\n• Collaborated with development, product, and customer support teams to streamline defect resolution\n• Coordinated with developers to report, track, and analyze defects, providing actionable insights\n• Utilized JIRA for test management, defect tracking, and progress monitoring\n• Analyzed application logs and generated detailed test reports to improve testing effectiveness"
+    },
+    {
+        "position": "Test Engineer Intern",
+        "company": "Vantage Circle",
+        "duration": "July 2022 - October 2022",
+        "description": "• Gained hands-on experience in various testing types, including Functional, UI/UX, Acceptance, and Regression testing\n• Utilized MySQL to validate front-end data against the database\n• Developed an understanding of requirement gathering and test planning processes\n• Conducted testing on an Employee Engagement Product with redemption features\n• Became familiar with SDLC processes and Agile methodologies\n• Enhanced expertise in Non-functional Testing, Manual Testing, and additional QA-related skills"
     }
 ]

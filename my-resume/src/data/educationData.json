@@ -1,17 +1,41 @@
 [
     {
-        "degree": "Bachelor of Technolgy in Computer Science and Engineering",
-        "institution": "The Kaziranga Assam Kaziranga University",
-        "duration": "2018 - 2022"
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
+        "institution": "Kaziranga University, Assam",
+        "duration": "August 2018 - May 2022",
+        "gpa": "3.8/4.0",
+        "achievements": "Dean's List for Academic Excellence (3 semesters)",
+        "relevantCoursework": "Software Testing Methodologies, Database Management Systems, Web Development, Object-Oriented Programming, Data Structures and Algorithms"
     },
     {
-        "degree": "Higher Secondary",
-        "institution": "B. Borooah College",
-        "duration": "2016 - 2018"
+        "degree": "Professional Certifications",
+        "institution": "Industry-recognized credentials",
+        "duration": "2022 - 2025",
+        "certifications": [
+            "MySQL Database Development Mastery",
+            "Selenium WebDriver with Python using Pytest",
+            "SQL (Advanced) Certificate",
+            "SQL Basic",
+            "Cloud Computing & Virtualization Graduate"
+        ]
+    },
+    {
+        "degree": "Higher Secondary (Science)",
+        "institution": "B. Borooah College, Guwahati",
+        "duration": "August 2016 - June 2018",
+        "gpa": "85%",
+        "achievements": "Mathematics Excellence Award, Science Club President"
     },
     {
         "degree": "Matriculation",
-        "institution": "Mangaldai Don Bosco High School",
-        "duration": "2015 - 2016"
+        "institution": "Don Bosco School Mangaldoi",
+        "duration": "January 2015 - June 2016",
+        "gpa": "92%",
+        "achievements": "School Merit Scholarship, 1st position in Computer Science"
+    },
+    {
+        "degree": "Primary Education",
+        "institution": "Sudershan Public School, Guwahati",
+        "duration": "January 2006 - December 2009"
     }
 ]

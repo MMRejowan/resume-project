@@ -1,8 +1,74 @@
-[
-    "Test Engineer",
-    "Automation Tester",
-    "Fundamentals of Java",
-    "Python",
-    "Proficiency in JavaScript",
-    "Good knowledge in SQL"
-]
+{
+  "categories": [
+    {
+      "name": "Testing Skills",
+      "skills": [
+        { "name": "Manual Testing", "proficiency": "Expert" },
+        { "name": "System Testing", "proficiency": "Expert" },
+        { "name": "Test Case Design", "proficiency": "Expert" },
+        { "name": "Regression Testing", "proficiency": "Advanced" },
+        { "name": "User Acceptance Testing", "proficiency": "Expert" },
+        { "name": "End-to-End Testing", "proficiency": "Advanced" },
+        { "name": "API Testing", "proficiency": "Advanced" },
+        { "name": "Mobile Testing", "proficiency": "Advanced" },
+        { "name": "Cross-browser Testing", "proficiency": "Advanced" },
+        { "name": "Cross-device Testing", "proficiency": "Advanced" },
+        { "name": "Functional Testing", "proficiency": "Expert" }
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "skills": [
+        { "name": "JavaScript", "proficiency": "Advanced" },
+        { "name": "Python", "proficiency": "Advanced" },
+        { "name": "Java", "proficiency": "Advanced" },
+        { "name": "SQL", "proficiency": "Advanced" },
+        { "name": "HTML/CSS", "proficiency": "Advanced" }
+      ]
+    },
+    {
+      "name": "Tools & Frameworks",
+      "skills": [
+        { "name": "Selenium", "proficiency": "Expert" },
+        { "name": "Cypress", "proficiency": "Advanced" },
+        { "name": "Mocha", "proficiency": "Advanced" },
+        { "name": "Jest", "proficiency": "Intermediate" },
+        { "name": "Pytest", "proficiency": "Advanced" },
+        { "name": "JIRA", "proficiency": "Expert" },
+        { "name": "Git", "proficiency": "Advanced" },
+        { "name": "Jenkins", "proficiency": "Advanced" },
+        { "name": "GitHub Actions", "proficiency": "Advanced" },
+        { "name": "Prometheus", "proficiency": "Advanced" },
+        { "name": "Grafana", "proficiency": "Advanced" },
+        { "name": "Docker", "proficiency": "Intermediate" },
+        { "name": "BrowserStack", "proficiency": "Advanced" },
+        { "name": "LambdaTest", "proficiency": "Advanced" },
+        { "name": "Zephyr Squad", "proficiency": "Advanced" },
+        { "name": "Postman", "proficiency": "Advanced" }
+      ]
+    },
+    {
+      "name": "Database Skills",
+      "skills": [
+        { "name": "MySQL", "proficiency": "Advanced" },
+        { "name": "MongoDB", "proficiency": "Intermediate" },
+        { "name": "Database Testing", "proficiency": "Advanced" },
+        { "name": "Data Validation", "proficiency": "Advanced" }
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "skills": [
+        { "name": "Communication", "proficiency": "Advanced" },
+        { "name": "Team Collaboration", "proficiency": "Advanced" },
+        { "name": "Problem Solving", "proficiency": "Expert" },
+        { "name": "Attention to Detail", "proficiency": "Expert" },
+        { "name": "Analytical Skills", "proficiency": "Advanced" },
+        { "name": "Methodical Approach", "proficiency": "Advanced" },
+        { "name": "Time Management", "proficiency": "Advanced" },
+        { "name": "Documentation", "proficiency": "Expert" },
+        { "name": "Continuous Learning", "proficiency": "Advanced" }
+      ]
+    }
+  ]
+}

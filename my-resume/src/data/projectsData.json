@@ -1,29 +1,53 @@
 [
     {
-        "title": "Food Survey Web Page",
-        "description": "Food Survey Web Page front end",
-        "technologies": ["HTML", "CSS"],
-        "link": "https://mmrejowan.github.io/Task-2-Survey/"
+        "title": "Employee Recognition Platform Test Automation",
+        "description": "Designed and implemented a comprehensive automated testing framework for Vantage Circle's employee recognition platform, achieving 85% test coverage. The framework includes end-to-end tests for critical user journeys, API tests for backend validation, and integration tests. Reduced regression testing time by 70% and identified critical bugs before production deployment.",
+        "technologies": ["Selenium", "Cypress", "JavaScript", "Mocha", "Jenkins", "CI/CD"],
+        "link": "https://github.com/MMRejowan/automation-framework",
+        "type": "QA Engineering"
     },
     {
-        "title": "GIF website",
-        "description": "Developed a GIF collection website frontend",
-        "technologies": ["HTML", "CSS"],
-        "link": "https://mmrejowan.github.io/Sample-4-Task2/"
+        "title": "Performance Monitoring System for HR Applications",
+        "description": "Created a performance monitoring system for Vantage Circle's HR applications to track application health and performance metrics. Implemented dashboards to visualize response times, error rates, and system load. Identified and resolved performance bottlenecks that improved average response time by 40%.",
+        "technologies": ["Prometheus", "Grafana", "Docker", "Python", "JMeter"],
+        "link": "https://github.com/MMRejowan/performance-monitoring",
+        "type": "DevOps & Monitoring"
     },
     {
-        "title": "Donation Website",
-        "description": "Developed a donation website for stray dogs with integration of payment feature using razorpay",
-        "technologies": ["HTML", "CSS"],
-        "link": "https://mmrejowan.github.io/GRIP21-Task/"
+        "title": "Employee Survey Platform Test Suite",
+        "description": "Developed automated test suite for the employee engagement survey platform, ensuring data accuracy and reporting integrity. Implemented data validation tests and created a comprehensive test data generation tool. Reduced manual testing effort by 60% and improved data quality by identifying edge case scenarios.",
+        "technologies": ["Selenium WebDriver", "Python", "PyTest", "SQL", "REST API Testing"],
+        "link": "https://github.com/MMRejowan/survey-testing-framework",
+        "type": "QA Engineering"
     },
     {
-        "title": "University project",
-        "description": "Developed a static website frontend for tourism",
-        "technologies": ["HTML", "CSS"],
-        "link": "https://github.com/MMRejowan/Bhromon.git"
+        "title": "Mobile Application Test Automation",
+        "description": "Developed a cross-platform mobile testing solution for Vantage Circle's Android and iOS applications using Appium. Implemented a Page Object Model architecture for improved maintainability and created a detailed reporting system with screenshots and video recordings. Integrated with CI/CD pipeline for automated test execution on new builds.",
+        "technologies": ["Appium", "Java", "TestNG", "Docker", "Allure Reports"],
+        "link": "https://github.com/MMRejowan/mobile-app-testing",
+        "type": "Mobile Testing"
+    },
+    {
+        "title": "API Testing Framework",
+        "description": "Built a robust API testing framework for the company's microservices architecture, ensuring reliability and performance of backend systems. Implemented automated tests for REST and GraphQL APIs with parameterized testing capabilities. Reduced API regression testing time by 75% and improved API documentation through test-as-documentation approach.",
+        "technologies": ["Postman", "Newman", "JavaScript", "Jenkins", "REST APIs", "GraphQL"],
+        "link": "https://github.com/MMRejowan/api-testing-framework",
+        "type": "API Testing"
+    },
+    {
+        "title": "Continuous Integration Pipeline for Test Automation",
+        "description": "Designed and implemented a CI/CD pipeline specifically for test automation, enabling continuous testing practices. Integrated test execution with code commits, deployed test results dashboards, and implemented smart test selection to optimize test runtime. Reduced feedback time for developers by 60% and improved overall release quality.",
+        "technologies": ["Jenkins", "Docker", "GitHub Actions", "Selenium Grid", "Reporting Tools"],
+        "link": "https://github.com/MMRejowan/ci-test-pipeline",
+        "type": "DevOps & QA"
+    },
+    {
+        "title": "Test Data Management System",
+        "description": "Created a comprehensive test data management solution to support automated testing across multiple applications. Implemented data generation, sanitization, and restoration capabilities to ensure test isolation and repeatability. Improved test reliability by 45% and reduced test maintenance costs associated with data-related issues.",
+        "technologies": ["Python", "SQL", "MongoDB", "Data Generation Tools", "ETL Processes"],
+        "link": "https://github.com/MMRejowan/test-data-management",
+        "type": "Test Infrastructure"
     }
-
 ]
 
 
