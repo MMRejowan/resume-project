@@ -41,14 +41,15 @@ const WorkExperience = () => {
             });
         }, observerOptions);
 
-        timelineRefs.current.forEach(ref => {
-            if (ref) observer.observe(ref);
-        });
+        // Get current refs to avoid stale closures
+        const currentRefs = timelineRefs.current.filter(ref => ref);
+        
+        // Observe all valid refs
+        currentRefs.forEach(ref => observer.observe(ref));
 
         return () => {
-            timelineRefs.current.forEach(ref => {
-                if (ref) observer.unobserve(ref);
-            });
+            // Clean up by unobserving the same refs
+            currentRefs.forEach(ref => observer.unobserve(ref));
         };
     }, []);
 
