@@ -20,35 +20,17 @@ const getDegreeIcon = (degree) => {
     }
 };
 
-// Function to get card color based on degree type
-const getDegreeColor = (degree) => {
-    const lowerDegree = degree.toLowerCase();
-    
-    if (lowerDegree.includes('bachelor')) {
-        return '#3b82f6'; // Blue
-    } else if (lowerDegree.includes('master') || lowerDegree.includes('phd')) {
-        return '#8b5cf6'; // Purple
-    } else if (lowerDegree.includes('certification') || lowerDegree.includes('certificate')) {
-        return '#10b981'; // Green
-    } else if (lowerDegree.includes('secondary')) {
-        return '#f59e0b'; // Amber
-    } else if (lowerDegree.includes('matriculation')) {
-        return '#6366f1'; // Indigo
-    } else {
-        return '#ec4899'; // Pink
-    }
-};
-
 // Function to render certifications if available
 const renderCertifications = (certifications) => {
     if (!certifications || certifications.length === 0) return null;
     
     return (
-        <div className="certification-list">
+        <div className="terminal-log">
+            <div className="terminal-header">CERTIFICATION_VERIFICATION_LOG</div>
             {certifications.map((cert, index) => (
-                <div key={index} className="certification-item">
-                    <span className="certification-icon">✓</span>
-                    <span className="certification-name">{cert}</span>
+                <div key={index} className="log-entry">
+                    <span className="log-status">[SUCCESS]</span>
+                    <span className="log-message">{cert} VERIFIED</span>
                 </div>
             ))}
         </div>
@@ -91,7 +73,6 @@ const Education = () => {
             <div className="education-grid">
                 {educationData.map((education, index) => {
                     const icon = getDegreeIcon(education.degree);
-                    const color = getDegreeColor(education.degree);
                     
                     return (
                         <div 
