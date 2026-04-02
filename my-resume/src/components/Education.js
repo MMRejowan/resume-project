@@ -99,11 +99,10 @@ const Education = () => {
                             className="education-card"
                             ref={el => cardRefs.current[index] = el}
                             style={{
-                                animationDelay: `${index * 0.15}s`,
-                                borderTop: `3px solid ${color}`
+                                animationDelay: `${index * 0.15}s`
                             }}
                         >
-                            <div className="degree-icon-container" style={{ backgroundColor: color }}>
+                            <div className="degree-icon-container">
                                 <span className="degree-icon">{icon}</span>
                             </div>
                             

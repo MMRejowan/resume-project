@@ -17,7 +17,7 @@ const Header = () => {
                             <span className="initials">MMR</span>
                         ) : (
                             <img 
-                                src="https://media.licdn.com/dms/image/D5603AQFT0jZ6yAlWUQ/profile-displayphoto-shrink_800_800/0/1707149318349?e=1716422400&v=beta&t=rYGH-5Ru7nCYIaQ5tJ-oIXj2WVzL3PXgmI8H24HuoBI" 
+                                src="https://media.licdn.com/dms/image/v2/D4D03AQG9kvHrbCNb_A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1703264377569?e=1776902400&v=beta&t=0jJtpy5iOy1AF1wcByRaBxotZ47-DcD7jOC0DOWmN8Q" 
                                 alt="Mushtaq Mohd Rejowan" 
                                 className="profile-image"
                                 onError={handleImageError}

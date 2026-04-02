@@ -64,11 +64,10 @@ const Projects = () => {
                             key={index}
                             ref={el => projectRefs.current[index] = el}
                             style={{
-                                animationDelay: `${index * 0.1}s`,
-                                borderTop: `3px solid ${projectType.color}`
+                                animationDelay: `${index * 0.1}s`
                             }}
                         >
-                            <div className="project-type" style={{ backgroundColor: projectType.color }}>
+                            <div className="project-type">
                                 <span className="project-type-icon">{projectType.icon}</span>
                                 <span className="project-type-text">{projectType.type}</span>
                             </div>

@@ -18,25 +18,8 @@ const getCategoryIcon = (categoryName) => {
     }
 };
 
-// Function to get color based on proficiency level
-const getProficiencyColor = (proficiency) => {
-    switch(proficiency.toLowerCase()) {
-        case 'beginner':
-            return '#94a3b8';
-        case 'intermediate':
-            return '#60a5fa';
-        case 'advanced':
-            return '#2563eb';
-        case 'expert':
-            return '#1d4ed8';
-        default:
-            return '#94a3b8';
-    }
-};
-
 // Function to render proficiency indicator
 const ProficiencyIndicator = ({ level }) => {
-    const color = getProficiencyColor(level);
     return (
         <div className="proficiency-indicator" title={level}>
             <div className="proficiency-bar">
@@ -45,8 +28,7 @@ const ProficiencyIndicator = ({ level }) => {
                     style={{ 
                         width: level === 'Beginner' ? '25%' : 
                                level === 'Intermediate' ? '50%' : 
-                               level === 'Advanced' ? '75%' : '100%',
-                        backgroundColor: color
+                               level === 'Advanced' ? '75%' : '100%'
                     }}
                 ></div>
             </div>
