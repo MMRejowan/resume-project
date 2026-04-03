@@ -25,11 +25,12 @@ const renderCertifications = (certifications) => {
     if (!certifications || certifications.length === 0) return null;
     
     return (
-        <div className="certification-list">
+        <div className="terminal-log">
+            <div className="terminal-header">CERTIFICATION_VERIFICATION_LOG</div>
             {certifications.map((cert, index) => (
-                <div key={index} className="certification-item">
-                    <span className="certification-icon">✓</span>
-                    <span className="certification-name">{cert}</span>
+                <div key={index} className="log-entry">
+                    <span className="log-status">[SUCCESS]</span>
+                    <span className="log-message">{cert} VERIFIED</span>
                 </div>
             ))}
         </div>
