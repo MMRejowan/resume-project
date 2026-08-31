@@ -12,10 +12,11 @@
         "institution": "Industry-recognized credentials",
         "duration": "2022 - 2025",
         "certifications": [
+            "AI Agents Fundamentals",
+            "Software Engineer Certificate",
             "MySQL Database Development Mastery",
             "Selenium WebDriver with Python using Pytest",
             "SQL (Advanced) Certificate",
-            "SQL Basic",
             "Cloud Computing & Virtualization Graduate"
         ]
     },

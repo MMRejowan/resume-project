@@ -1,7 +1,7 @@
 // src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/main.css'; // Import your main stylesheet
+import './styles/TerminalOS.css';
 import App from './App';
 
 ReactDOM.render(

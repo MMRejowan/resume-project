@@ -1,73 +1,71 @@
 {
   "categories": [
     {
-      "name": "Testing Skills",
+      "name": "Testing & Quality Engineering",
       "skills": [
-        { "name": "Manual Testing", "proficiency": "Expert" },
-        { "name": "System Testing", "proficiency": "Expert" },
-        { "name": "Test Case Design", "proficiency": "Expert" },
-        { "name": "Regression Testing", "proficiency": "Advanced" },
-        { "name": "User Acceptance Testing", "proficiency": "Expert" },
-        { "name": "End-to-End Testing", "proficiency": "Advanced" },
-        { "name": "API Testing", "proficiency": "Advanced" },
-        { "name": "Mobile Testing", "proficiency": "Advanced" },
-        { "name": "Cross-browser Testing", "proficiency": "Advanced" },
-        { "name": "Cross-device Testing", "proficiency": "Advanced" },
-        { "name": "Functional Testing", "proficiency": "Expert" }
+        { "name": "Playwright", "proficiency": "Expert" },
+        { "name": "Selenium WebDriver", "proficiency": "Expert" },
+        { "name": "AI-Assisted Test Automation", "proficiency": "Advanced" },
+        { "name": "Artillery (Performance Testing)", "proficiency": "Advanced" },
+        { "name": "API Testing (Playwright APIRequestContext & Postman)", "proficiency": "Expert" },
+        { "name": "Test Architecture & Framework Design", "proficiency": "Expert" },
+        { "name": "System & Regression Testing", "proficiency": "Expert" },
+        { "name": "User Acceptance Testing (UAT)", "proficiency": "Expert" },
+        { "name": "End-to-End & Functional Testing", "proficiency": "Expert" },
+        { "name": "Cross-Browser & Cross-Device Testing", "proficiency": "Advanced" },
+        { "name": "Mobile Testing (Appium)", "proficiency": "Advanced" }
       ]
     },
     {
-      "name": "Programming Languages",
+      "name": "Programming & Systems",
       "skills": [
-        { "name": "JavaScript", "proficiency": "Advanced" },
+        { "name": "TypeScript", "proficiency": "Advanced" },
+        { "name": "JavaScript (ES6+)", "proficiency": "Expert" },
         { "name": "Python", "proficiency": "Advanced" },
+        { "name": "C / C++", "proficiency": "Advanced" },
         { "name": "Java", "proficiency": "Advanced" },
         { "name": "SQL", "proficiency": "Advanced" },
-        { "name": "HTML/CSS", "proficiency": "Advanced" }
+        { "name": "HTML5 / CSS3", "proficiency": "Advanced" }
       ]
     },
     {
-      "name": "Tools & Frameworks",
+      "name": "Automotive & Embedded Systems",
       "skills": [
-        { "name": "Selenium", "proficiency": "Expert" },
-        { "name": "Cypress", "proficiency": "Advanced" },
-        { "name": "Mocha", "proficiency": "Advanced" },
-        { "name": "Jest", "proficiency": "Intermediate" },
-        { "name": "Pytest", "proficiency": "Advanced" },
-        { "name": "JIRA", "proficiency": "Expert" },
-        { "name": "Git", "proficiency": "Advanced" },
-        { "name": "Jenkins", "proficiency": "Advanced" },
-        { "name": "GitHub Actions", "proficiency": "Advanced" },
-        { "name": "Prometheus", "proficiency": "Advanced" },
-        { "name": "Grafana", "proficiency": "Advanced" },
-        { "name": "Docker", "proficiency": "Intermediate" },
-        { "name": "BrowserStack", "proficiency": "Advanced" },
-        { "name": "LambdaTest", "proficiency": "Advanced" },
-        { "name": "Zephyr Squad", "proficiency": "Advanced" },
-        { "name": "Postman", "proficiency": "Advanced" }
+        { "name": "ECU Simulation & Validation", "proficiency": "Intermediate" },
+        { "name": "CAN / UDS Protocols", "proficiency": "Intermediate" },
+        { "name": "Python-based Hardware / System Automation", "proficiency": "Advanced" },
+        { "name": "Embedded Software Testing", "proficiency": "Intermediate" }
       ]
     },
     {
-      "name": "Database Skills",
+      "name": "Tools, DevOps & CI/CD",
+      "skills": [
+        { "name": "GitHub Actions", "proficiency": "Advanced" },
+        { "name": "Jenkins CI/CD", "proficiency": "Advanced" },
+        { "name": "Docker", "proficiency": "Intermediate" },
+        { "name": "Git & GitHub", "proficiency": "Expert" },
+        { "name": "Prometheus & Grafana", "proficiency": "Advanced" },
+        { "name": "JIRA & Zephyr Squad", "proficiency": "Expert" },
+        { "name": "BrowserStack & LambdaTest", "proficiency": "Advanced" },
+        { "name": "Cypress, Mocha, Pytest, Jest", "proficiency": "Advanced" }
+      ]
+    },
+    {
+      "name": "Databases",
       "skills": [
         { "name": "MySQL", "proficiency": "Advanced" },
         { "name": "MongoDB", "proficiency": "Intermediate" },
-        { "name": "Database Testing", "proficiency": "Advanced" },
-        { "name": "Data Validation", "proficiency": "Advanced" }
+        { "name": "Database Testing & Data Integrity Validation", "proficiency": "Expert" }
       ]
     },
     {
-      "name": "Soft Skills",
+      "name": "Engineering & Leadership",
       "skills": [
-        { "name": "Communication", "proficiency": "Advanced" },
-        { "name": "Team Collaboration", "proficiency": "Advanced" },
-        { "name": "Problem Solving", "proficiency": "Expert" },
-        { "name": "Attention to Detail", "proficiency": "Expert" },
-        { "name": "Analytical Skills", "proficiency": "Advanced" },
-        { "name": "Methodical Approach", "proficiency": "Advanced" },
-        { "name": "Time Management", "proficiency": "Advanced" },
-        { "name": "Documentation", "proficiency": "Expert" },
-        { "name": "Continuous Learning", "proficiency": "Advanced" }
+        { "name": "Test Strategy & Planning", "proficiency": "Expert" },
+        { "name": "Mentoring & Code Reviews", "proficiency": "Expert" },
+        { "name": "Root Cause Analysis & Debugging", "proficiency": "Expert" },
+        { "name": "Cross-Functional Collaboration", "proficiency": "Expert" },
+        { "name": "Agile / Scrum Methodologies", "proficiency": "Expert" }
       ]
     }
   ]
